@@ -1,0 +1,1177 @@
+{
+  "name": "Madhavi Chat Bot",
+  "intents": [
+    {
+      "intent": "thankyou",
+      "examples": [
+        {
+          "text": "thanku"
+        },
+        {
+          "text": "“Thanks! You’re awesome for thinking of me.”"
+        },
+        {
+          "text": "I really appreciate it."
+        },
+        {
+          "text": "Thank you!"
+        },
+        {
+          "text": "I can’t believe you did this!"
+        },
+        {
+          "text": "What a thoughtful gift. I really appreciate this!"
+        },
+        {
+          "text": "I don’t know what to say. Thank you."
+        },
+        {
+          "text": "Thank you so much. This was very kind of you."
+        },
+        {
+          "text": "You’re the best. Thanks so much."
+        },
+        {
+          "text": "I really owe you one."
+        },
+        {
+          "text": "I’m so grateful for your help."
+        },
+        {
+          "text": "I’m so thankful friends like you."
+        },
+        {
+          "text": "Thank you for your assistance with/attention to this matter. We look forward to hearing from you shortly."
+        },
+        {
+          "text": "lol thankyou dear"
+        }
+      ],
+      "description": "Thanking to bot service"
+    },
+    {
+      "intent": "travel_agent",
+      "examples": [
+        {
+          "text": "Any guide or travel agent which can guide us?"
+        },
+        {
+          "text": "Any guide from your company"
+        },
+        {
+          "text": "Travel agent who guide us?"
+        },
+        {
+          "text": "Any agent who can help me to travel?"
+        },
+        {
+          "text": "Is any travel agent provided by you?"
+        },
+        {
+          "text": "Want any travel agent"
+        }
+      ],
+      "description": "help of travel"
+    },
+    {
+      "intent": "travel_essentials",
+      "examples": [
+        {
+          "text": "Some essentials related to tourist must have?"
+        },
+        {
+          "text": "What essentials things need to travel."
+        },
+        {
+          "text": "Any essentials for travelling through these places?"
+        },
+        {
+          "text": "What are requirements for secure travelling?"
+        }
+      ],
+      "description": "Things related to travel"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are wonderful"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "Popular_Place",
+      "examples": [
+        {
+          "text": "Show me most popular place here."
+        },
+        {
+          "text": "Can you please show most versatile place to visit."
+        },
+        {
+          "text": "Most popular place visit by people."
+        },
+        {
+          "text": "Show me best place to visit."
+        },
+        {
+          "text": "Good thing to visit."
+        }
+      ],
+      "description": "Places to visit"
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "Popular_Experience",
+      "examples": [
+        {
+          "text": "Incredible Experiences"
+        },
+        {
+          "text": "Must have good experience in India."
+        },
+        {
+          "text": "Show me popular experiences in India."
+        },
+        {
+          "text": "Crazy Experience"
+        },
+        {
+          "text": "Top Things to do"
+        },
+        {
+          "text": "Top Experiences in India"
+        }
+      ],
+      "description": "visit good place"
+    },
+    {
+      "intent": "Tourism_Suggestion",
+      "examples": [
+        {
+          "text": "Beach holdidays"
+        },
+        {
+          "text": "Show some of sugestion where we can travel?"
+        },
+        {
+          "text": "Show some travel suggestion"
+        },
+        {
+          "text": "trekking"
+        },
+        {
+          "text": "I want spend my vaccation."
+        },
+        {
+          "text": "family holidays"
+        },
+        {
+          "text": "Where we travel adventures journey?"
+        },
+        {
+          "text": "Where is we can travel?"
+        },
+        {
+          "text": "suggest some adventures trip"
+        },
+        {
+          "text": "Wildlife holidays"
+        },
+        {
+          "text": "Honeymoon tour"
+        },
+        {
+          "text": "winter vacation"
+        }
+      ],
+      "description": "suggestion"
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "hii"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "GoodBye",
+      "examples": [
+        {
+          "text": "I'm leaving."
+        },
+        {
+          "text": "Bye now."
+        },
+        {
+          "text": "adieu."
+        },
+        {
+          "text": "Later, meet you."
+        },
+        {
+          "text": "Exit."
+        },
+        {
+          "text": "Stop."
+        },
+        {
+          "text": "quit."
+        },
+        {
+          "text": "Meet you soon. Bye."
+        },
+        {
+          "text": "Have a good day."
+        },
+        {
+          "text": "We meet again."
+        },
+        {
+          "text": "Good bye thanks for your help."
+        },
+        {
+          "text": "Good Bye Madhavi"
+        },
+        {
+          "text": "Nice to have You. Good Bye."
+        },
+        {
+          "text": "Good day dear."
+        },
+        {
+          "text": "Until next time, Bye."
+        },
+        {
+          "text": "Good Bye."
+        }
+      ],
+      "description": "good bye to madhavi"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Tourism_Suggestion",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Winters Holiday",
+          "synonyms": [
+            "Winter Vacation",
+            "Winter holidays",
+            "Winter Tour"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Summer Holidays",
+          "synonyms": [
+            "Summer Vacation",
+            "Summer Tour",
+            "holiday season",
+            "vacation plans",
+            "summer holiday",
+            "vacation days",
+            "vacation time"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Honeymoon tour",
+          "synonyms": [
+            "Honeymoon Holidays"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Adventure Tour",
+          "synonyms": [
+            "Adventures Holiday",
+            "Adventures plan",
+            "Adventures"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Beach Tour",
+          "synonyms": [
+            "Beach Plan",
+            "Beach Holiday"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Wildlife Tour",
+          "synonyms": [
+            "wildlife",
+            "wildlife plan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Trekking Tour",
+          "synonyms": [
+            "Trekking Holidays"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Family Vacation",
+          "synonyms": [
+            "Family Holidays",
+            "Family Tour",
+            "family holiday"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Ask Tour",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure. Would you further please tell me your choice of tourism like adventures, trekking, summer vacation, Honeymoon Trip or any other?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1546958863067",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1546965921976"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1546970901476",
+      "previous_sibling": "node_5_1546971676047"
+    },
+    {
+      "type": "standard",
+      "title": "Honeymoon",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Wow, we wish you a Happy Honeymoon. Here are some location where couples want to go like Kashmir, Manali, Sikkim, Mussoorie, Goa, Darjeeling. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1546958863067",
+      "metadata": {},
+      "conditions": "@Tourism_Suggestion:(Honeymoon tour)",
+      "dialog_node": "node_4_1546971431716",
+      "previous_sibling": "node_3_1546971241986"
+    },
+    {
+      "type": "standard",
+      "title": "Wildlife",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some suggestion in wildlife tour: Jim Corbett, Kaziranga, Sunderban, Periyar, Kanha."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1546958863067",
+      "metadata": {},
+      "conditions": "@Tourism_Suggestion:(Wildlife Tour)",
+      "dialog_node": "node_6_1546971824537",
+      "previous_sibling": "node_7_1546972005427"
+    },
+    {
+      "type": "standard",
+      "title": "Trekking Tour",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Some Popular Trekking place are Valley of Flower, Har ki Doon Trek, Ladakh to Stok Trek, Hampta Pass Trek, McLeodganj Trek."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1546958863067",
+      "metadata": {},
+      "conditions": "@Tourism_Suggestion:(Trekking Tour)",
+      "dialog_node": "node_8_1546972234551",
+      "previous_sibling": "node_4_1546971431716"
+    },
+    {
+      "type": "standard",
+      "title": "Summer Vacation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great you want to spent your summer vacation. Here are some nice places you want to visit: Nanital, Sikkim, Jim Corbett National Park, Tajmahal, Old Delhi and past monuments, Jaipur. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1546958863067",
+      "metadata": {},
+      "conditions": "@Tourism_Suggestion:(Summer Holidays)",
+      "dialog_node": "node_3_1546971241986",
+      "previous_sibling": "node_1_1546967181647"
+    },
+    {
+      "type": "standard",
+      "title": "Beach",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Take your pick from the beach tour packages in India tastefully in Andaman, Goa, Chennai, Mahabalipuram."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1546958863067",
+      "metadata": {},
+      "conditions": "@Tourism_Suggestion:(Beach Tour)",
+      "dialog_node": "node_5_1546971676047",
+      "previous_sibling": "node_6_1546971824537"
+    },
+    {
+      "type": "standard",
+      "title": "Adventures",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's Nice dear. Many people today are adventures. Here are some suggestion where you want your adventures rides like Rafting on Ganga River, Journey to Ladakh, Rishikesh with Auli Tour, Bramhputra rafting Tour."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1546958863067",
+      "metadata": {},
+      "conditions": "@Tourism_Suggestion:(Adventure Tour)",
+      "dialog_node": "node_7_1546972005427",
+      "previous_sibling": "node_8_1546972234551"
+    },
+    {
+      "type": "standard",
+      "title": "Winter Vacation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's Nice. You can plan your tour to Shimla, Manali, Rishikesh, Tamil Nadu, Varanasi."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1546958863067",
+      "metadata": {},
+      "conditions": "@Tourism_Suggestion:(Winters Holiday)",
+      "dialog_node": "node_1_1546967181647",
+      "previous_sibling": "node_9_1546965921976"
+    },
+    {
+      "type": "standard",
+      "title": "Family Vacation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can spent family holidays in Kerala , Nainital, Shimla, Agra, Jaipur, Darjeeling."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1546958863067",
+      "metadata": {},
+      "conditions": "@Tourism_Suggestion:(Family Vacation)",
+      "dialog_node": "node_9_1546965921976"
+    },
+    {
+      "type": "standard",
+      "title": "Travel Essentials",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are happy to assist you about travelling Essentials. You need Visa if you are international traveler, for visa kindly check Indian government Tourism website for more information, if you are local traveler you need not require anything special.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#travel_essentials",
+      "dialog_node": "node_7_1546953751806",
+      "previous_sibling": "node_6_1546953002974"
+    },
+    {
+      "type": "standard",
+      "title": "Popular Experience",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Taj Mahal Visit, Attend Ganga Arti at Varanasi, Spend a night boat in kerala, Dal Lake in Kashmir, Celebrate Holi in Vrindavan, Get Lost in Kumbh Mela, Visit Camel Festival in Pushkar, and many more."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Popular_Experience",
+      "dialog_node": "node_4_1546947495129",
+      "previous_sibling": "node_3_1546946943075"
+    },
+    {
+      "type": "standard",
+      "title": "Travel Suggestions",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1546965921976"
+      },
+      "conditions": "#Tourism_Suggestion",
+      "dialog_node": "node_8_1546958863067",
+      "previous_sibling": "node_7_1546953751806"
+    },
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome Dear, I can help you in providing some suggestion in planning a trip. Please feel free to ask me?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_5_1546947859082",
+      "previous_sibling": "node_4_1546947495129"
+    },
+    {
+      "type": "standard",
+      "title": "Popular Places",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is the list you have to must visit these places- Srinagar-The Gem of Kashmir, Tajmahal, Varanasi -for its spiritual essence, Sunderban, Leh Ladhakh, Shimla-Queen of Northern Hills, Udaipur-Romantic city of Lakes and many more."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Popular_Place",
+      "dialog_node": "node_3_1546946943075",
+      "previous_sibling": "node_2_1546945796707"
+    },
+    {
+      "type": "standard",
+      "title": "GoodBye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Until next time."
+              },
+              {
+                "text": "Until we meet again."
+              },
+              {
+                "text": "Thankyou for talking with me. See you soon."
+              },
+              {
+                "text": "I am happy to help you. Please visit us again."
+              },
+              {
+                "text": "See you soon. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#GoodBye || #General_Ending",
+      "dialog_node": "node_2_1546945796707",
+      "previous_sibling": "node_1_1546944328608"
+    },
+    {
+      "type": "standard",
+      "title": "Travel Agent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have several travel agent all over the country who can help you to travel and guide you through your journey. Please Contact us We are happy to help you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#travel_agent",
+      "dialog_node": "node_6_1546953002974",
+      "previous_sibling": "node_5_1546947859082"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1546958863067"
+    },
+    {
+      "type": "standard",
+      "title": "Thankyou",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's my pleasure. "
+              },
+              {
+                "text": "Not at All."
+              },
+              {
+                "text": "Don't mention it."
+              },
+              {
+                "text": "It's no bother."
+              },
+              {
+                "text": "That's all right."
+              },
+              {
+                "text": "No worries."
+              },
+              {
+                "text": "I'm happy to help you."
+              },
+              {
+                "text": "You are welcome."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#thankyou || #General_Positive_Feedback",
+      "dialog_node": "node_1_1546944328608",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, My name is Madhavi and I am a chatbot . How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "5b565992-9de7-4eb6-9422-f1856baf2c34",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Training"
+}
