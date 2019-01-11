@@ -14,5 +14,12 @@ travells and tours suggestion in India.
 
 You can use the json file in Watson Assistant to train it.The Live working of Chatbot can be seen here: https://wwwavinashkumarycom.000webhostapp.com/
 
+Images:
+
+![First](https://github.com/avi-jkiapt/chatbot/blob/master/one.png)   ![Second](https://github.com/avi-jkiapt/chatbot/blob/master/two.png)
+
+![Third](https://github.com/avi-jkiapt/chatbot/blob/master/three.png)
+![Fourth](https://github.com/avi-jkiapt/chatbot/blob/master/four.png)
+
  
 
